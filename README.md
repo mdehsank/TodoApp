@@ -1,16 +1,36 @@
-# React + Vite
+# 📝 Full Stack Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A complete, production-ready Todo application built with the MERN stack (MongoDB, Express, React, Node.js). This app allows users to create, read, update, and delete tasks with a beautiful and responsive user interface.
 
-Currently, two official plugins are available:
+![Todo App Screenshot](https://via.placeholder.com/800x400?text=Todo+App+Screenshot)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- ✅ **Create** - Add new todos with title and optional description
+- 📖 **Read** - View all todos sorted by creation date
+- ✏️ **Update** - Edit todo title, description, and toggle completion status
+- 🗑️ **Delete** - Remove todos with confirmation dialog
+- 📊 **Statistics** - View total, completed, and pending todos count
+- 📱 **Responsive** - Works on desktop, tablet, and mobile devices
+- 🎨 **Modern UI** - Clean and intuitive user interface with smooth animations
+- 💾 **Persistent Storage** - Data stored in MongoDB database
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React 18** - UI library
+- **Vite** - Build tool and development server
+- **Axios** - HTTP client for API calls
+- **CSS3** - Styling with responsive design
+
+### Backend
+
+- **Node.js** - JavaScript runtime
+- **Express.js** - Web framework
+- **MongoDB** - NoSQL database
+- **Mongoose** - MongoDB ODM
+- **CORS** - Cross-origin resource sharing
+- **Dotenv** - Environment variable management
+
+## 📁 Project Structure
